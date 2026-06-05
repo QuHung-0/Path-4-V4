@@ -91,7 +91,7 @@ Mở trong pycharm: click chuột phải vào files:
 ![image description](https://github.com/QuHung-0/Path-4-V4/blob/main/z.%20image/Run%20Py.png)
 
 và chạy theo thứ tự
-
+```
 M01: Path 4 V4\dataset\M01_dataset\process:
 P01 - P02 - P03 - P04
 
@@ -112,6 +112,6 @@ P01 - P03 - P04
 
 M07: Path 4 V4\webapp\M07_web_app\process:
 P05
-
+```
 Nếu muốn reset toàn bộ hệ thống để chạy hoàn toàn mới:
 xóa thư mục: Path 4 V4\outputs
