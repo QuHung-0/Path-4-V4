@@ -3,7 +3,7 @@ torch==2.7.1+cu118
 torchvision==0.22.1+cu118
 
 # pip install torch==2.7.1+cu118 torchvision==0.22.1+cu118 --index-url https://download.pytorch.org/whl/cu118 
-# (this is for MOBILE GTX 1650)
+# (this is for MOBILE GTX 1650, google how to install torch that match the spec to the current running system)
 
 # Xử lý dữ liệu
 numpy==2.2.6
