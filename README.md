@@ -56,7 +56,7 @@ M01_INPUT_RAW_FISH_IMAGE_FOLDER = r"D:\ASDF\Nam 4 HK 2\Đồ án tốt nghiệp\
 
 ```
 
-Thay đổi phù hợp với đường dẫn hệ thống hiện thỉ trong thư mục để các files chạy đúng với cài đặt, hiện tại cài đặt đang ở trong thư mục: "D:\ASDF\Nam 4 HK 2\Đồ án tốt nghiệp\Path 4 V4" nên sẽ để theo cài đặt như trên,
+Thay đổi phù hợp với đường dẫn hệ thống hiện thị trong thư mục để các files chạy đúng với cài đặt, hiện tại cài đặt đang ở trong thư mục: "D:\ASDF\Nam 4 HK 2\Đồ án tốt nghiệp\Path 4 V4" nên sẽ để theo cài đặt như trên,
 
 nếu files ở vị trí: "C:\Users\ACER\Desktop\Path 4 V4" thì được cấu hình thành:
 
