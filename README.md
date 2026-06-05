@@ -85,10 +85,10 @@ M06_NEO4J_DATABASE = "neo4j"
 ```
 
 Để mật khẩu (M06_P01_NEO4J_PASSWORD = "123456789") trùng với password trong neo4j khi tạo instance:
-![image description](relative/path/in/repository/to/image.svg)
+![image description](z. image/Neo4j instance.png)
 ## Thứ tự chạy (lần đầu tiên)
 Mở trong pycharm: click chuột phải vào files:
-![image description](relative/path/in/repository/to/image.svg)
+![image description](z. image/Run Py.png)
 
 và chạy theo thứ tự
 
