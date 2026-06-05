@@ -84,7 +84,7 @@ M06_P01_NEO4J_PASSWORD = "123456789"
 M06_NEO4J_DATABASE = "neo4j"
 ```
 
-Để mật khẩu (M06_P01_NEO4J_PASSWORD = "123456789") trùng với password trong neo4j khi tạo instance:
+Để mật khẩu (M06_P01_NEO4J_PASSWORD = "123456789") trùng với password trong neo4j khi tạo instance (Create database user):
 ![image description](https://github.com/QuHung-0/Path-4-V4/blob/main/z.%20image/Neo4j%20instance.png)
 ## Thứ tự chạy (lần đầu tiên)
 Mở trong pycharm: click chuột phải vào files:
