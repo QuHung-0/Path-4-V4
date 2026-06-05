@@ -92,26 +92,6 @@ Mở trong pycharm: click chuột phải vào files:
 
 và chạy theo thứ tự
 
-M01: Path 4 V4\dataset\M01_dataset\process:
-P01 - P02 - P03 - P04
-
-M02: Path 4 V4\dataset\M02_preprocessing\process:
-P01 - P02
-
-M03: Path 4 V4\model_weights\M03_model\process:
-P01 - P02 - P03 - P05 - P07 - P06
-
-M04: Path 4 V4\model_weights\M04_evaluation\process:
-P01 - P02 - P03 - P04 - P05
-
-M05: Path 4 V4\semantic\M05_semantic\process:
-P01 - P02 - P03 - P05 - P06
-
-M06: Path 4 V4\kg\M06_knowledge_graph\process (phải có neo4j chạy cùng):
-P01 - P03 - P04
-
-M07: Path 4 V4\webapp\M07_web_app\process:
-P05
 
 Nếu muốn reset toàn bộ hệ thống để chạy hoàn toàn mới:
 xóa thư mục: Path 4 V4\outputs
