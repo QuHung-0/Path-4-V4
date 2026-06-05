@@ -1,0 +1,45 @@
+Path 4 V4 — M01_P05 Remaining Images Report
+Generated: 2026-05-11T08:19:24.350644
+
+============================================================
+KNOWN SPECIES (remaining after 200-image balanced selection)
+============================================================
+  Acanthurus_nigrofuscus                       18 images
+  Amphiprion_clarkii                         3849 images
+  Chaetodon_lunulatus                        2334 images
+  Chromis_chrysura                           3393 images
+  Dascyllus_reticulatus                     11912 images
+  Hemigymnus_fasciatus                         41 images
+  Lutjanus_fulvus                               6 images
+  Myripristis_kuntee                          250 images
+  Neoniphon_sammara                            99 images
+  Plectroglyphidodon_dickii                  2483 images
+  SUBTOTAL                                  24385 images
+
+============================================================
+EXCLUDED SPECIES (all images — never trained on)
+============================================================
+  fish_06                                     190 images
+  fish_11                                      98 images
+  fish_12                                     147 images
+  fish_13                                     181 images
+  fish_14                                      90 images
+  fish_15                                      42 images
+  fish_17                                      49 images
+  fish_18                                      56 images
+  fish_19                                      29 images
+  fish_20                                      21 images
+  fish_21                                      16 images
+  fish_22                                      41 images
+  fish_23                                      25 images
+  SUBTOTAL                                    985 images
+
+============================================================
+  GRAND TOTAL                               25370 images
+============================================================
+
+Output folder: D:\ASDF\Nam 4 HK 2\Đồ án tốt nghiệp\Path 4 V4\outputs\M01_dataset\P05_remaining_images
+    known_species/    — remaining images from 10 trained species
+    excluded_species/ — all images from 13 untrained species
+
+Next step: run M07_P06 to bulk-predict all images in this folder.

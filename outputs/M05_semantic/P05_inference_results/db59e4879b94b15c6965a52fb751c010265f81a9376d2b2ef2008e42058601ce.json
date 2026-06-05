@@ -1,0 +1,43 @@
+{
+    "image_id": "db59e4879b94b15c6965a52fb751c010265f81a9376d2b2ef2008e42058601ce",
+    "image_filename": "fish_003478955350_11843.png",
+    "internal_label": "Neoniphon_sammara",
+    "confidence": 0.99982,
+    "taxonomy_status": "verified",
+    "scientific_name": "Neoniphon sammara",
+    "authority": "(Forssk\u00e5l, 1775)",
+    "aphia_id": 159393,
+    "lineage": [
+        {
+            "rank": "Kingdom",
+            "scientificname": "Animalia"
+        },
+        {
+            "rank": "Phylum",
+            "scientificname": "Chordata"
+        },
+        {
+            "rank": "Class",
+            "scientificname": "Teleostei"
+        },
+        {
+            "rank": "Order",
+            "scientificname": "Holocentriformes"
+        },
+        {
+            "rank": "Family",
+            "scientificname": "Holocentridae"
+        },
+        {
+            "rank": "Genus",
+            "scientificname": "Neoniphon"
+        },
+        {
+            "rank": "Species",
+            "scientificname": "Neoniphon sammara"
+        }
+    ],
+    "timestamp": "2026-05-10T08:15:29.594290",
+    "model_version": "best_model.pth",
+    "source_dataset": "Fish4Knowledge"
+}

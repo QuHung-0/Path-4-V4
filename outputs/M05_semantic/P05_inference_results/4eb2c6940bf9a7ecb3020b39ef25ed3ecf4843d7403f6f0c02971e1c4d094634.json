@@ -1,0 +1,43 @@
+{
+    "image_id": "4eb2c6940bf9a7ecb3020b39ef25ed3ecf4843d7403f6f0c02971e1c4d094634",
+    "image_filename": "fish_004285927001_22285.png",
+    "internal_label": "Amphiprion_clarkii",
+    "confidence": 1.0,
+    "taxonomy_status": "verified",
+    "scientific_name": "Amphiprion clarkii",
+    "authority": "(Bennett, 1830)",
+    "aphia_id": 212783,
+    "lineage": [
+        {
+            "rank": "Kingdom",
+            "scientificname": "Animalia"
+        },
+        {
+            "rank": "Phylum",
+            "scientificname": "Chordata"
+        },
+        {
+            "rank": "Class",
+            "scientificname": "Teleostei"
+        },
+        {
+            "rank": "Order",
+            "scientificname": "Ovalentaria incertae sedis"
+        },
+        {
+            "rank": "Family",
+            "scientificname": "Pomacentridae"
+        },
+        {
+            "rank": "Genus",
+            "scientificname": "Amphiprion"
+        },
+        {
+            "rank": "Species",
+            "scientificname": "Amphiprion clarkii"
+        }
+    ],
+    "timestamp": "2026-05-10T08:15:27.628120",
+    "model_version": "best_model.pth",
+    "source_dataset": "Fish4Knowledge"
+}

@@ -1,0 +1,14 @@
+{
+    "image_id": "36690c57753f520b1889d3a9914ac67b558a8abc86b26e1c51abde69977a3521",
+    "image_filename": "fish_003414655267_21258.png",
+    "internal_label": "Amphiprion_clarkii",
+    "confidence": 0.563567,
+    "taxonomy_status": "low_confidence",
+    "scientific_name": null,
+    "authority": null,
+    "aphia_id": null,
+    "lineage": null,
+    "timestamp": "2026-05-10T08:15:27.425154",
+    "model_version": "best_model.pth",
+    "source_dataset": "Fish4Knowledge"
+}

@@ -1,0 +1,14 @@
+{
+    "image_id": "16852210646b211844e124e40f2fb7085caff8d55acd923c9daca63b82cd0b12",
+    "image_filename": "fish_003541765448_24311.png",
+    "internal_label": "Myripristis_kuntee",
+    "confidence": 0.602972,
+    "taxonomy_status": "low_confidence",
+    "scientific_name": null,
+    "authority": null,
+    "aphia_id": null,
+    "lineage": null,
+    "timestamp": "2026-05-10T08:15:28.765089",
+    "model_version": "best_model.pth",
+    "source_dataset": "Fish4Knowledge"
+}

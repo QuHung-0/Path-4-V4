@@ -1,0 +1,14 @@
+{
+    "image_id": "47a3c4839eb091160d7916ae0d4750bc7f9538b835b5c4a95aa2f07596e40d4d",
+    "image_filename": "fish_000051759596_04588.png",
+    "internal_label": "Plectroglyphidodon_dickii",
+    "confidence": 0.449343,
+    "taxonomy_status": "low_confidence",
+    "scientific_name": null,
+    "authority": null,
+    "aphia_id": null,
+    "lineage": null,
+    "timestamp": "2026-05-10T08:15:29.825195",
+    "model_version": "best_model.pth",
+    "source_dataset": "Fish4Knowledge"
+}

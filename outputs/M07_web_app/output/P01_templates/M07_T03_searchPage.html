@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Search Knowledge Graph</title>
+  <style>
+    body  { font-family: Arial, sans-serif; max-width: 960px; margin: 60px auto; padding: 0 20px; background: #f5f5f5; }
+    h1    { color: #1a3a5c; }
+    .card { background: white; padding: 28px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-bottom: 20px; }
+    .filters { display: flex; gap: 12px; flex-wrap: wrap; align-items: flex-end; }
+    .filter-group label { display: block; font-size: 13px; color: #555; margin-bottom: 4px; }
+
+    /* FIX 6 (HTML): added input[type=date] to the selector so date pickers
+       share the same width/padding as text and number inputs.
+       OLD SELECTOR WAS:
+         input[type=text], input[type=number] { ... width: 200px; }
+       FIX: add input[type=date] to the same rule */
+    input[type=text], input[type=number], input[type=date] {
+      padding: 8px 10px; border: 1px solid #ccc; border-radius: 4px;
+      font-size: 14px; width: 200px;
+    }
+
+    button { background: #1a3a5c; color: white; border: none; padding: 9px 22px; border-radius: 4px; font-size: 14px; cursor: pointer; }
+    button:hover { background: #2a5a8c; }
+    table  { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th     { background: #1a3a5c; color: white; padding: 10px 12px; text-align: left; }
+    td     { padding: 9px 12px; border-bottom: 1px solid #eee; }
+    tr:hover td { background: #f0f4f8; }
+    .count { color: #555; font-size: 14px; margin-bottom: 12px; }
+    .conf-high { color: #080; }
+    .conf-low  { color: #a00; }
+    .flash-success { background: #e0ffe0; color: #080; padding: 10px 16px; border-radius: 4px; margin-bottom: 16px; }
+    .flash-error   { background: #ffe0e0; color: #a00; padding: 10px 16px; border-radius: 4px; margin-bottom: 16px; }
+    nav a { margin-right: 16px; color: #1a3a5c; text-decoration: none; font-weight: bold; }
+
+    .table-wrapper { overflow-x: auto;}
+  </style>
+</head>
+<body>
+  <nav><a href="/">Upload</a><a href="/search">Search Knowledge Graph</a></nav>
+  <br>
+
+  {% with messages = get_flashed_messages(with_categories=true) %}
+    {% for category, message in messages %}
+      <div class="flash-{{ category }}">{{ message }}</div>
+    {% endfor %}
+  {% endwith %}
+
+  <div class="card">
+    <h1>Search Knowledge Graph</h1>
+    <form method="GET" action="/search">
+      <div class="filters">
+        <div class="filter-group">
+          <label>Scientific name</label>
+          <input type="text" name="species" placeholder="e.g. Chaetodon lunulatus" value="{{ filters.species }}">
+        </div>
+        <div class="filter-group">
+          <label>Dataset source</label>
+          <input type="text" name="dataset" placeholder="e.g. Fish4Knowledge" value="{{ filters.dataset }}">
+        </div>
+        <div class="filter-group">
+          <label>Min confidence (0–1)</label>
+          <input type="number" name="min_conf" placeholder="e.g. 0.90" step="0.01" min="0" max="1" value="{{ filters.min_conf }}">
+        </div>
+
+        <!-- FIX 6 (HTML): added From date and To date inputs.
+             OLD CODE: these two filter-group divs did not exist at all.
+             The search form only had species, dataset, min_conf, and submit.
+             FIX: add two date inputs between min_conf and the submit button.
+             These connect to from_date / to_date in filters dict (Fixed in M07_P04). -->
+        <div class="filter-group">
+          <label>From date</label>
+          <input type="date" name="from_date" value="{{ filters.from_date }}">
+        </div>
+        <div class="filter-group">
+          <label>To date</label>
+          <input type="date" name="to_date" value="{{ filters.to_date }}">
+        </div>
+
+        <div class="filter-group">
+          <button type="submit">Search</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <div class="card" >
+    <div class="count">Showing {{ result_count }} result{% if result_count != 1 %}s{% endif %}</div>
+
+    {% if results %}
+    <div class="table-wrapper">
+    <table >
+      <thead>
+        <tr>
+          <!-- FIX 6 (HTML): added Authority and Recorded at columns to results table.
+               OLD THEAD WAS:
+               <th>Scientific name</th>
+               <th>Internal label</th>
+               <th>Confidence</th>
+               <th>Status</th>
+               <th>Source</th>
+               <th>Image ID (first 16)</th>
+               FIX: add Authority and Recorded at so the data written to Neo4j
+               (after Fixes 1-3 added authority to Species nodes) is actually
+               visible in the search results. -->
+          <th>Scientific name</th>
+          <th>Authority</th>
+          <th>Internal label</th>
+          <th>Confidence</th>
+          <th>Status</th>
+          <th>Source</th>
+          <th>Recorded at</th>
+          <th>Image ID (first 16)</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in results %}
+        <tr>
+          <td>{% if row.scientificName %}<em>{{ row.scientificName }}</em>{% else %}—{% endif %}</td>
+
+          <!-- FIX 6 (HTML): new Authority cell — displays WoRMS authority string
+               e.g. "(Bloch, 1792)". Shows — if low_confidence (no Species link). -->
+          <td style="font-size:12px;color:#555">{{ row.authority or '—' }}</td>
+
+          <td>{{ row.internalLabel or '—' }}</td>
+          <td>
+            {% if row.confidence %}
+              {% set pct = (row.confidence * 100)|round(2) %}
+              <span class="{% if row.confidence >= 0.70 %}conf-high{% else %}conf-low{% endif %}">
+                {{ pct }}%
+              </span>
+            {% else %}—{% endif %}
+          </td>
+          <td>{{ row.taxonomyStatus or '—' }}</td>
+          <td>{{ row.sourceDataset or '—' }}</td>
+
+          <!-- FIX 6 (HTML): new Recorded at cell — displays pred.createdAt timestamp.
+               Sliced to first 19 chars to show YYYY-MM-DDTHH:MM:SS without microseconds. -->
+          <td style="font-size:11px">{{ (row.createdAt or '')[:19] or '—' }}</td>
+
+          <td style="font-size:11px;font-family:monospace">{{ (row.imageId or '')[:16] }}…</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    </div>
+    {% else %}
+      <p style="color:#888">No results found. Try a different search or leave filters empty to see all records.</p>
+    {% endif %}
+  </div>
+</body>
+</html>

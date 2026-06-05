@@ -1,0 +1,43 @@
+{
+    "image_id": "cdb4848d738202a8ef1ca85d6633a42721c3c8ca6cfc35bdd187d52764494721",
+    "image_filename": "fish_000027210001_02841.png",
+    "internal_label": "Dascyllus_reticulatus",
+    "confidence": 0.999017,
+    "taxonomy_status": "verified",
+    "scientific_name": "Dascyllus reticulatus",
+    "authority": "(Richardson, 1846)",
+    "aphia_id": 212844,
+    "lineage": [
+        {
+            "rank": "Kingdom",
+            "scientificname": "Animalia"
+        },
+        {
+            "rank": "Phylum",
+            "scientificname": "Chordata"
+        },
+        {
+            "rank": "Class",
+            "scientificname": "Teleostei"
+        },
+        {
+            "rank": "Order",
+            "scientificname": "Ovalentaria incertae sedis"
+        },
+        {
+            "rank": "Family",
+            "scientificname": "Pomacentridae"
+        },
+        {
+            "rank": "Genus",
+            "scientificname": "Dascyllus"
+        },
+        {
+            "rank": "Species",
+            "scientificname": "Dascyllus reticulatus"
+        }
+    ],
+    "timestamp": "2026-05-10T08:15:28.421108",
+    "model_version": "best_model.pth",
+    "source_dataset": "Fish4Knowledge"
+}

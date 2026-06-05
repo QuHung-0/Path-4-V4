@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Prediction Result</title>
+  <style>
+    body  { font-family: Arial, sans-serif; max-width: 700px; margin: 60px auto; padding: 0 20px; background: #f5f5f5; }
+    h1    { color: #1a3a5c; }
+    .card { background: white; padding: 32px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-bottom: 20px; }
+    .label { font-weight: bold; color: #555; width: 160px; display: inline-block; }
+    .value { color: #111; }
+    .row   { margin: 10px 0; }
+    .species-name { font-size: 22px; font-weight: bold; color: #1a3a5c; margin: 8px 0; }
+    .conf-high { color: #080; font-weight: bold; }
+    .conf-low  { color: #a00; font-weight: bold; }
+    .lineage   { background: #f0f4f8; padding: 12px 16px; border-radius: 5px; margin-top: 12px; font-size: 14px; line-height: 1.8; }
+    .btn-save  { background: #1a3a5c; color: white; border: none; padding: 12px 28px; border-radius: 5px; font-size: 15px; cursor: pointer; }
+    .btn-save:hover { background: #2a5a8c; }
+    .btn-back  { background: #eee; color: #333; border: none; padding: 12px 22px; border-radius: 5px; font-size: 15px; cursor: pointer; margin-right: 10px; }
+    .btn-back:hover  { background: #ddd; }
+    .low-conf-notice { background: #fff3cd; border-left: 4px solid #ffc107; padding: 12px 16px; border-radius: 4px; margin-top: 12px; }
+    nav a { margin-right: 16px; color: #1a3a5c; text-decoration: none; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <nav><a href="/">Upload</a><a href="/search">Search Knowledge Graph</a></nav>
+  <br>
+  <div class="card">
+    <h1>Prediction Result</h1>
+
+    <div class="row">
+      <span class="label">Internal label:</span>
+      <span class="value">{{ result.internal_label }}</span>
+    </div>
+
+    {% if result.taxonomy_status == "verified" %}
+      <div class="row">
+        <span class="label">Scientific name:</span>
+        <span class="species-name">{{ result.scientific_name }}</span>
+      </div>
+      <div class="row">
+        <span class="label">AphiaID (WoRMS):</span>
+        <span class="value">
+          <a href="https://www.marinespecies.org/aphia.php?p=taxdetails&id={{ result.aphia_id }}" target="_blank">{{ result.aphia_id }}</a>
+        </span>
+      </div>
+      <div class="row">
+        <span class="label">Confidence:</span>
+        <span class="conf-high">{{ "%.2f"|format(result.confidence * 100) }}%</span>
+      </div>
+      <div class="lineage">
+        <strong>Taxonomy chain:</strong><br>
+        {% for taxon in result.lineage %}
+          {{ taxon.rank }}: <em>{{ taxon.scientificname }}</em><br>
+        {% endfor %}
+      </div>
+    {% else %}
+      <div class="row">
+        <span class="label">Confidence:</span>
+        <span class="conf-low">{{ "%.2f"|format(result.confidence * 100) }}%</span>
+      </div>
+      <div class="low-conf-notice">
+        Confidence is below the threshold ({{ "%.0f"|format(result.threshold_used * 100) }}%).
+        The prediction is uncertain — taxonomy will not be saved to the Knowledge Graph.
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="card">
+    <a href="/"><button class="btn-back" type="button">← Upload another</button></a>
+    {% if result.taxonomy_status == "verified" %}
+      <form method="POST" action="/write_to_kg" style="display:inline">
+        <button class="btn-save" type="submit">Save to Knowledge Graph</button>
+      </form>
+    {% endif %}
+  </div>
+</body>
+</html>

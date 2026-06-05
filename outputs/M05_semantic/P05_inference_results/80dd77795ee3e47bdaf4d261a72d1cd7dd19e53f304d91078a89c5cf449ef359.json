@@ -1,0 +1,43 @@
+{
+    "image_id": "80dd77795ee3e47bdaf4d261a72d1cd7dd19e53f304d91078a89c5cf449ef359",
+    "image_filename": "fish_004570877405_15963.png",
+    "internal_label": "Chaetodon_lunulatus",
+    "confidence": 1.0,
+    "taxonomy_status": "verified",
+    "scientific_name": "Chaetodon lunulatus",
+    "authority": "Quoy & Gaimard, 1825",
+    "aphia_id": 398549,
+    "lineage": [
+        {
+            "rank": "Kingdom",
+            "scientificname": "Animalia"
+        },
+        {
+            "rank": "Phylum",
+            "scientificname": "Chordata"
+        },
+        {
+            "rank": "Class",
+            "scientificname": "Teleostei"
+        },
+        {
+            "rank": "Order",
+            "scientificname": "Acanthuriformes"
+        },
+        {
+            "rank": "Family",
+            "scientificname": "Chaetodontidae"
+        },
+        {
+            "rank": "Genus",
+            "scientificname": "Chaetodon"
+        },
+        {
+            "rank": "Species",
+            "scientificname": "Chaetodon lunulatus"
+        }
+    ],
+    "timestamp": "2026-05-10T08:15:27.968352",
+    "model_version": "best_model.pth",
+    "source_dataset": "Fish4Knowledge"
+}

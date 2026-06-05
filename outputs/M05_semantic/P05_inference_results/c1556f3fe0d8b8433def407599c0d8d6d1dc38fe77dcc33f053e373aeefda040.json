@@ -1,0 +1,43 @@
+{
+    "image_id": "c1556f3fe0d8b8433def407599c0d8d6d1dc38fe77dcc33f053e373aeefda040",
+    "image_filename": "fish_003713415850_14565.png",
+    "internal_label": "Plectroglyphidodon_dickii",
+    "confidence": 0.999939,
+    "taxonomy_status": "verified",
+    "scientific_name": "Plectroglyphidodon dickii",
+    "authority": "(Li\u00e9nard, 1839)",
+    "aphia_id": 212855,
+    "lineage": [
+        {
+            "rank": "Kingdom",
+            "scientificname": "Animalia"
+        },
+        {
+            "rank": "Phylum",
+            "scientificname": "Chordata"
+        },
+        {
+            "rank": "Class",
+            "scientificname": "Teleostei"
+        },
+        {
+            "rank": "Order",
+            "scientificname": "Ovalentaria incertae sedis"
+        },
+        {
+            "rank": "Family",
+            "scientificname": "Pomacentridae"
+        },
+        {
+            "rank": "Genus",
+            "scientificname": "Plectroglyphidodon"
+        },
+        {
+            "rank": "Species",
+            "scientificname": "Plectroglyphidodon dickii"
+        }
+    ],
+    "timestamp": "2026-05-10T08:15:29.942415",
+    "model_version": "best_model.pth",
+    "source_dataset": "Fish4Knowledge"
+}

@@ -1,0 +1,43 @@
+{
+    "image_id": "13543d881001a5a6c7aa07816bdd0d3f0b7c8f184a95d6ceaa6190d80aa9f8a6",
+    "image_filename": "fish_000000819594_03403.png",
+    "internal_label": "Lutjanus_fulvus",
+    "confidence": 0.999695,
+    "taxonomy_status": "verified",
+    "scientific_name": "Lutjanus fulvus",
+    "authority": "(Forster, 1801)",
+    "aphia_id": 218475,
+    "lineage": [
+        {
+            "rank": "Kingdom",
+            "scientificname": "Animalia"
+        },
+        {
+            "rank": "Phylum",
+            "scientificname": "Chordata"
+        },
+        {
+            "rank": "Class",
+            "scientificname": "Teleostei"
+        },
+        {
+            "rank": "Order",
+            "scientificname": "Eupercaria incertae sedis"
+        },
+        {
+            "rank": "Family",
+            "scientificname": "Lutjanidae"
+        },
+        {
+            "rank": "Genus",
+            "scientificname": "Lutjanus"
+        },
+        {
+            "rank": "Species",
+            "scientificname": "Lutjanus fulvus"
+        }
+    ],
+    "timestamp": "2026-05-10T08:15:28.952420",
+    "model_version": "best_model.pth",
+    "source_dataset": "Fish4Knowledge"
+}

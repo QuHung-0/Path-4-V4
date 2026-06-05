@@ -1,0 +1,43 @@
+{
+    "image_id": "432c17ea763e204f77c59f7b6fba19401c6aa5522f80047d62226b2b72f2e0c4",
+    "image_filename": "fish_000026940001_02785.png",
+    "internal_label": "Acanthurus_nigrofuscus",
+    "confidence": 0.990845,
+    "taxonomy_status": "verified",
+    "scientific_name": "Acanthurus nigrofuscus",
+    "authority": "(Forssk\u00e5l, 1775)",
+    "aphia_id": 219640,
+    "lineage": [
+        {
+            "rank": "Kingdom",
+            "scientificname": "Animalia"
+        },
+        {
+            "rank": "Phylum",
+            "scientificname": "Chordata"
+        },
+        {
+            "rank": "Class",
+            "scientificname": "Teleostei"
+        },
+        {
+            "rank": "Order",
+            "scientificname": "Acanthuriformes"
+        },
+        {
+            "rank": "Family",
+            "scientificname": "Acanthuridae"
+        },
+        {
+            "rank": "Genus",
+            "scientificname": "Acanthurus"
+        },
+        {
+            "rank": "Species",
+            "scientificname": "Acanthurus nigrofuscus"
+        }
+    ],
+    "timestamp": "2026-05-10T08:15:27.116996",
+    "model_version": "best_model.pth",
+    "source_dataset": "Fish4Knowledge"
+}

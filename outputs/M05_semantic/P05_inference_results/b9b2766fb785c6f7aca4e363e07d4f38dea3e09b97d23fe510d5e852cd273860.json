@@ -1,0 +1,14 @@
+{
+    "image_id": "b9b2766fb785c6f7aca4e363e07d4f38dea3e09b97d23fe510d5e852cd273860",
+    "image_filename": "fish_004465317252_25308.png",
+    "internal_label": "Chromis_chrysura",
+    "confidence": 0.476581,
+    "taxonomy_status": "low_confidence",
+    "scientific_name": null,
+    "authority": null,
+    "aphia_id": null,
+    "lineage": null,
+    "timestamp": "2026-05-10T08:15:28.641990",
+    "model_version": "best_model.pth",
+    "source_dataset": "Fish4Knowledge"
+}

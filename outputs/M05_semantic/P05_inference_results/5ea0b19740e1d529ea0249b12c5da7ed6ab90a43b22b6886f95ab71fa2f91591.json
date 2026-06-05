@@ -1,0 +1,14 @@
+{
+    "image_id": "5ea0b19740e1d529ea0249b12c5da7ed6ab90a43b22b6886f95ab71fa2f91591",
+    "image_filename": "fish_000017499598_05611.png",
+    "internal_label": "Dascyllus_reticulatus",
+    "confidence": 0.606784,
+    "taxonomy_status": "low_confidence",
+    "scientific_name": null,
+    "authority": null,
+    "aphia_id": null,
+    "lineage": null,
+    "timestamp": "2026-05-10T08:15:28.402194",
+    "model_version": "best_model.pth",
+    "source_dataset": "Fish4Knowledge"
+}

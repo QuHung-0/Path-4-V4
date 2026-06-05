@@ -1,0 +1,43 @@
+{
+    "image_id": "cdd3b7306c7cc21785a2eba2caee8b8fffd9e91ae2a858911c72d6e0578de7d5",
+    "image_filename": "fish_000013110001_01094.png",
+    "internal_label": "Chromis_chrysura",
+    "confidence": 0.999507,
+    "taxonomy_status": "verified",
+    "scientific_name": "Chromis chrysura",
+    "authority": "(Bliss, 1883)",
+    "aphia_id": 212824,
+    "lineage": [
+        {
+            "rank": "Kingdom",
+            "scientificname": "Animalia"
+        },
+        {
+            "rank": "Phylum",
+            "scientificname": "Chordata"
+        },
+        {
+            "rank": "Class",
+            "scientificname": "Teleostei"
+        },
+        {
+            "rank": "Order",
+            "scientificname": "Ovalentaria incertae sedis"
+        },
+        {
+            "rank": "Family",
+            "scientificname": "Pomacentridae"
+        },
+        {
+            "rank": "Genus",
+            "scientificname": "Chromis"
+        },
+        {
+            "rank": "Species",
+            "scientificname": "Chromis chrysura"
+        }
+    ],
+    "timestamp": "2026-05-10T08:15:27.992121",
+    "model_version": "best_model.pth",
+    "source_dataset": "Fish4Knowledge"
+}

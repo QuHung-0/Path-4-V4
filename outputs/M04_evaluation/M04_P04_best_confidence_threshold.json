@@ -1,0 +1,7 @@
+{
+    "threshold": 0.7,
+    "precision_pct": 98.95,
+    "recall_pct": 94.0,
+    "f1_pct": 96.41,
+    "coverage_pct": 95.0
+}

@@ -1,0 +1,43 @@
+{
+    "image_id": "26d3f6e4c49828d681496f54018124de372a68907d0b86d7f82f666706c01622",
+    "image_filename": "fish_000013410001_01277.png",
+    "internal_label": "Myripristis_kuntee",
+    "confidence": 0.998642,
+    "taxonomy_status": "verified",
+    "scientific_name": "Myripristis kuntee",
+    "authority": "Valenciennes, 1831",
+    "aphia_id": 217915,
+    "lineage": [
+        {
+            "rank": "Kingdom",
+            "scientificname": "Animalia"
+        },
+        {
+            "rank": "Phylum",
+            "scientificname": "Chordata"
+        },
+        {
+            "rank": "Class",
+            "scientificname": "Teleostei"
+        },
+        {
+            "rank": "Order",
+            "scientificname": "Holocentriformes"
+        },
+        {
+            "rank": "Family",
+            "scientificname": "Holocentridae"
+        },
+        {
+            "rank": "Genus",
+            "scientificname": "Myripristis"
+        },
+        {
+            "rank": "Species",
+            "scientificname": "Myripristis kuntee"
+        }
+    ],
+    "timestamp": "2026-05-10T08:15:29.400062",
+    "model_version": "best_model.pth",
+    "source_dataset": "Fish4Knowledge"
+}

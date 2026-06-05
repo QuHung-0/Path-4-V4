@@ -1,0 +1,11 @@
+species,precision_pct,recall_pct,f1_pct
+Acanthurus_nigrofuscus,90.62,96.67,93.55
+Amphiprion_clarkii,100.0,100.0,100.0
+Chaetodon_lunulatus,96.77,100.0,98.36
+Chromis_chrysura,83.33,100.0,90.91
+Dascyllus_reticulatus,100.0,73.33,84.62
+Hemigymnus_fasciatus,100.0,96.67,98.31
+Lutjanus_fulvus,100.0,100.0,100.0
+Myripristis_kuntee,93.75,100.0,96.77
+Neoniphon_sammara,100.0,100.0,100.0
+Plectroglyphidodon_dickii,100.0,93.33,96.55

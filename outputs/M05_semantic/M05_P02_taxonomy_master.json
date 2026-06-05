@@ -1,0 +1,362 @@
+{
+    "Acanthurus_nigrofuscus": {
+        "aphia_id": 219640,
+        "authority": "(Forssk\u00e5l, 1775)",
+        "lineage": [
+            {
+                "rank": "Kingdom",
+                "scientificname": "Animalia"
+            },
+            {
+                "rank": "Phylum",
+                "scientificname": "Chordata"
+            },
+            {
+                "rank": "Class",
+                "scientificname": "Teleostei"
+            },
+            {
+                "rank": "Order",
+                "scientificname": "Acanthuriformes"
+            },
+            {
+                "rank": "Family",
+                "scientificname": "Acanthuridae"
+            },
+            {
+                "rank": "Genus",
+                "scientificname": "Acanthurus"
+            },
+            {
+                "rank": "Species",
+                "scientificname": "Acanthurus nigrofuscus"
+            }
+        ],
+        "scientific_name": "Acanthurus nigrofuscus",
+        "status": "accepted"
+    },
+    "Amphiprion_clarkii": {
+        "aphia_id": 212783,
+        "authority": "(Bennett, 1830)",
+        "lineage": [
+            {
+                "rank": "Kingdom",
+                "scientificname": "Animalia"
+            },
+            {
+                "rank": "Phylum",
+                "scientificname": "Chordata"
+            },
+            {
+                "rank": "Class",
+                "scientificname": "Teleostei"
+            },
+            {
+                "rank": "Order",
+                "scientificname": "Ovalentaria incertae sedis"
+            },
+            {
+                "rank": "Family",
+                "scientificname": "Pomacentridae"
+            },
+            {
+                "rank": "Genus",
+                "scientificname": "Amphiprion"
+            },
+            {
+                "rank": "Species",
+                "scientificname": "Amphiprion clarkii"
+            }
+        ],
+        "scientific_name": "Amphiprion clarkii",
+        "status": "accepted"
+    },
+    "Chaetodon_lunulatus": {
+        "aphia_id": 398549,
+        "authority": "Quoy & Gaimard, 1825",
+        "lineage": [
+            {
+                "rank": "Kingdom",
+                "scientificname": "Animalia"
+            },
+            {
+                "rank": "Phylum",
+                "scientificname": "Chordata"
+            },
+            {
+                "rank": "Class",
+                "scientificname": "Teleostei"
+            },
+            {
+                "rank": "Order",
+                "scientificname": "Acanthuriformes"
+            },
+            {
+                "rank": "Family",
+                "scientificname": "Chaetodontidae"
+            },
+            {
+                "rank": "Genus",
+                "scientificname": "Chaetodon"
+            },
+            {
+                "rank": "Species",
+                "scientificname": "Chaetodon lunulatus"
+            }
+        ],
+        "scientific_name": "Chaetodon lunulatus",
+        "status": "accepted"
+    },
+    "Chromis_chrysura": {
+        "aphia_id": 212824,
+        "authority": "(Bliss, 1883)",
+        "lineage": [
+            {
+                "rank": "Kingdom",
+                "scientificname": "Animalia"
+            },
+            {
+                "rank": "Phylum",
+                "scientificname": "Chordata"
+            },
+            {
+                "rank": "Class",
+                "scientificname": "Teleostei"
+            },
+            {
+                "rank": "Order",
+                "scientificname": "Ovalentaria incertae sedis"
+            },
+            {
+                "rank": "Family",
+                "scientificname": "Pomacentridae"
+            },
+            {
+                "rank": "Genus",
+                "scientificname": "Chromis"
+            },
+            {
+                "rank": "Species",
+                "scientificname": "Chromis chrysura"
+            }
+        ],
+        "scientific_name": "Chromis chrysura",
+        "status": "accepted"
+    },
+    "Dascyllus_reticulatus": {
+        "aphia_id": 212844,
+        "authority": "(Richardson, 1846)",
+        "lineage": [
+            {
+                "rank": "Kingdom",
+                "scientificname": "Animalia"
+            },
+            {
+                "rank": "Phylum",
+                "scientificname": "Chordata"
+            },
+            {
+                "rank": "Class",
+                "scientificname": "Teleostei"
+            },
+            {
+                "rank": "Order",
+                "scientificname": "Ovalentaria incertae sedis"
+            },
+            {
+                "rank": "Family",
+                "scientificname": "Pomacentridae"
+            },
+            {
+                "rank": "Genus",
+                "scientificname": "Dascyllus"
+            },
+            {
+                "rank": "Species",
+                "scientificname": "Dascyllus reticulatus"
+            }
+        ],
+        "scientific_name": "Dascyllus reticulatus",
+        "status": "accepted"
+    },
+    "Hemigymnus_fasciatus": {
+        "aphia_id": 218999,
+        "authority": "(Bloch, 1792)",
+        "lineage": [
+            {
+                "rank": "Kingdom",
+                "scientificname": "Animalia"
+            },
+            {
+                "rank": "Phylum",
+                "scientificname": "Chordata"
+            },
+            {
+                "rank": "Class",
+                "scientificname": "Teleostei"
+            },
+            {
+                "rank": "Order",
+                "scientificname": "Eupercaria incertae sedis"
+            },
+            {
+                "rank": "Family",
+                "scientificname": "Labridae"
+            },
+            {
+                "rank": "Genus",
+                "scientificname": "Hemigymnus"
+            },
+            {
+                "rank": "Species",
+                "scientificname": "Hemigymnus fasciatus"
+            }
+        ],
+        "scientific_name": "Hemigymnus fasciatus",
+        "status": "accepted"
+    },
+    "Lutjanus_fulvus": {
+        "aphia_id": 218475,
+        "authority": "(Forster, 1801)",
+        "lineage": [
+            {
+                "rank": "Kingdom",
+                "scientificname": "Animalia"
+            },
+            {
+                "rank": "Phylum",
+                "scientificname": "Chordata"
+            },
+            {
+                "rank": "Class",
+                "scientificname": "Teleostei"
+            },
+            {
+                "rank": "Order",
+                "scientificname": "Eupercaria incertae sedis"
+            },
+            {
+                "rank": "Family",
+                "scientificname": "Lutjanidae"
+            },
+            {
+                "rank": "Genus",
+                "scientificname": "Lutjanus"
+            },
+            {
+                "rank": "Species",
+                "scientificname": "Lutjanus fulvus"
+            }
+        ],
+        "scientific_name": "Lutjanus fulvus",
+        "status": "accepted"
+    },
+    "Myripristis_kuntee": {
+        "aphia_id": 217915,
+        "authority": "Valenciennes, 1831",
+        "lineage": [
+            {
+                "rank": "Kingdom",
+                "scientificname": "Animalia"
+            },
+            {
+                "rank": "Phylum",
+                "scientificname": "Chordata"
+            },
+            {
+                "rank": "Class",
+                "scientificname": "Teleostei"
+            },
+            {
+                "rank": "Order",
+                "scientificname": "Holocentriformes"
+            },
+            {
+                "rank": "Family",
+                "scientificname": "Holocentridae"
+            },
+            {
+                "rank": "Genus",
+                "scientificname": "Myripristis"
+            },
+            {
+                "rank": "Species",
+                "scientificname": "Myripristis kuntee"
+            }
+        ],
+        "scientific_name": "Myripristis kuntee",
+        "status": "accepted"
+    },
+    "Neoniphon_sammara": {
+        "aphia_id": 159393,
+        "authority": "(Forssk\u00e5l, 1775)",
+        "lineage": [
+            {
+                "rank": "Kingdom",
+                "scientificname": "Animalia"
+            },
+            {
+                "rank": "Phylum",
+                "scientificname": "Chordata"
+            },
+            {
+                "rank": "Class",
+                "scientificname": "Teleostei"
+            },
+            {
+                "rank": "Order",
+                "scientificname": "Holocentriformes"
+            },
+            {
+                "rank": "Family",
+                "scientificname": "Holocentridae"
+            },
+            {
+                "rank": "Genus",
+                "scientificname": "Neoniphon"
+            },
+            {
+                "rank": "Species",
+                "scientificname": "Neoniphon sammara"
+            }
+        ],
+        "scientific_name": "Neoniphon sammara",
+        "status": "accepted"
+    },
+    "Plectroglyphidodon_dickii": {
+        "aphia_id": 212855,
+        "authority": "(Li\u00e9nard, 1839)",
+        "lineage": [
+            {
+                "rank": "Kingdom",
+                "scientificname": "Animalia"
+            },
+            {
+                "rank": "Phylum",
+                "scientificname": "Chordata"
+            },
+            {
+                "rank": "Class",
+                "scientificname": "Teleostei"
+            },
+            {
+                "rank": "Order",
+                "scientificname": "Ovalentaria incertae sedis"
+            },
+            {
+                "rank": "Family",
+                "scientificname": "Pomacentridae"
+            },
+            {
+                "rank": "Genus",
+                "scientificname": "Plectroglyphidodon"
+            },
+            {
+                "rank": "Species",
+                "scientificname": "Plectroglyphidodon dickii"
+            }
+        ],
+        "scientific_name": "Plectroglyphidodon dickii",
+        "status": "accepted"
+    }
+}

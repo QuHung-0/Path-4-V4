@@ -1,0 +1,43 @@
+{
+    "image_id": "62e17415fa151bab9388d87e270e4f7d150e9e2e1225b2d2c2a3a56ecfb550e6",
+    "image_filename": "fish_004413297149_17946.png",
+    "internal_label": "Hemigymnus_fasciatus",
+    "confidence": 0.999994,
+    "taxonomy_status": "verified",
+    "scientific_name": "Hemigymnus fasciatus",
+    "authority": "(Bloch, 1792)",
+    "aphia_id": 218999,
+    "lineage": [
+        {
+            "rank": "Kingdom",
+            "scientificname": "Animalia"
+        },
+        {
+            "rank": "Phylum",
+            "scientificname": "Chordata"
+        },
+        {
+            "rank": "Class",
+            "scientificname": "Teleostei"
+        },
+        {
+            "rank": "Order",
+            "scientificname": "Eupercaria incertae sedis"
+        },
+        {
+            "rank": "Family",
+            "scientificname": "Labridae"
+        },
+        {
+            "rank": "Genus",
+            "scientificname": "Hemigymnus"
+        },
+        {
+            "rank": "Species",
+            "scientificname": "Hemigymnus fasciatus"
+        }
+    ],
+    "timestamp": "2026-05-10T08:15:28.852249",
+    "model_version": "best_model.pth",
+    "source_dataset": "Fish4Knowledge"
+}

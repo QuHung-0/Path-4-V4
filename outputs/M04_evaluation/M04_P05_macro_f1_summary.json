@@ -1,0 +1,7 @@
+{
+    "macro_f1_pct": 95.91,
+    "worst_class": "Dascyllus_reticulatus",
+    "worst_class_f1_pct": 84.62,
+    "best_class": "Amphiprion_clarkii",
+    "best_class_f1_pct": 100.0
+}

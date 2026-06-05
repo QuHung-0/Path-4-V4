@@ -1,0 +1,12 @@
+species,correct,total,accuracy_pct,ci_lower_pct,ci_upper_pct
+Acanthurus_nigrofuscus,29,30,96.67,83.33,99.41
+Amphiprion_clarkii,30,30,100.0,88.65,100.0
+Chaetodon_lunulatus,30,30,100.0,88.65,100.0
+Chromis_chrysura,30,30,100.0,88.65,100.0
+Dascyllus_reticulatus,22,30,73.33,55.55,85.82
+Hemigymnus_fasciatus,29,30,96.67,83.33,99.41
+Lutjanus_fulvus,30,30,100.0,88.65,100.0
+Myripristis_kuntee,30,30,100.0,88.65,100.0
+Neoniphon_sammara,30,30,100.0,88.65,100.0
+Plectroglyphidodon_dickii,28,30,93.33,78.68,98.15
+OVERALL,288,300,96.0,93.14,97.7

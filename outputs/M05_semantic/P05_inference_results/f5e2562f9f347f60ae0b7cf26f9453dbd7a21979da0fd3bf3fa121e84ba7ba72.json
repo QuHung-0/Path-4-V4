@@ -1,0 +1,14 @@
+{
+    "image_id": "f5e2562f9f347f60ae0b7cf26f9453dbd7a21979da0fd3bf3fa121e84ba7ba72",
+    "image_filename": "fish_003426515286_19665.png",
+    "internal_label": "Chaetodon_lunulatus",
+    "confidence": 0.395743,
+    "taxonomy_status": "low_confidence",
+    "scientific_name": null,
+    "authority": null,
+    "aphia_id": null,
+    "lineage": null,
+    "timestamp": "2026-05-10T08:15:28.447145",
+    "model_version": "best_model.pth",
+    "source_dataset": "Fish4Knowledge"
+}

@@ -1,0 +1,14 @@
+{
+    "image_id": "c47a5490232e6155218d67dab96a6060802e9358937b2be066f04231615be51a",
+    "image_filename": "fish_000061829596_04682.png",
+    "internal_label": "Acanthurus_nigrofuscus",
+    "confidence": 0.602215,
+    "taxonomy_status": "low_confidence",
+    "scientific_name": null,
+    "authority": null,
+    "aphia_id": null,
+    "lineage": null,
+    "timestamp": "2026-05-10T08:15:29.842793",
+    "model_version": "best_model.pth",
+    "source_dataset": "Fish4Knowledge"
+}
